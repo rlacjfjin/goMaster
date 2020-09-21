@@ -2,6 +2,7 @@ package learnGo
 
 import (
 	"fmt"
+	DS "github.com/goMaster/learnGo/learnDS"
 	"testing"
 )
 
@@ -30,4 +31,30 @@ func TestMaps(t *testing.T) {
 
 func TestUsingPoint(t *testing.T) {
 	UsingPoint()
+}
+
+func TestUsingStruct(t *testing.T) {
+	UsingStruct()
+}
+
+func TestUsingTree(t *testing.T){
+	DS.UsingTree()
+}
+
+func TestUsingHash(t *testing.T)  {
+	DS.UsingHashTable()
+
+}
+
+func TestUsingLinkedList(t *testing.T)  {
+	DS.UsingLinkedList()
+
+}
+
+func TestUsingQueue(t *testing.T){
+	DS.UsingQueue()
+}
+
+func TestUsingStack(t *testing.T){
+	DS.UsingStack()
 }
